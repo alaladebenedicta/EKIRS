@@ -1,0 +1,88 @@
+*{padding:0px;margin:0px;}
+
+.section{
+    font-family: "roboto", sans-serif;
+    letter-spacing: 0.7px;
+    display:block;
+    margin:1% 25% 1% 30%;
+    background-image:linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("EKITI_LOGO_WATERMARK.jpg");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size:cover;
+    height:100%;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logo img{
+    width:18%;
+}
+
+.logo p{
+    align-items: center;
+    padding:25px 5px;
+    font-size:20px;
+    font-weight: bold;
+}
+
+h6{
+    text-align: right;
+    font-size:20px;
+    padding-right:90px;
+    transform:rotate(-5deg);
+    font-weight: 300;
+    letter-spacing:1px;
+}
+
+.section button{
+    display:block;
+    margin:0 auto;
+    height:30px;
+    width:200px;
+    font-size: 17px;
+    font-weight: 600;
+    outline:none;
+    border:none;
+    background-image: linear-gradient(to right, #00ace6, #ffe066, #ff99ac,  #ffe066, #00ace6);
+}
+
+.section h2{
+    text-align: center;
+    font-size:15px;
+    font-weight: 600;
+}
+
+.section h3{
+    padding: 30px 20px 0px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.table, .sub-table{
+    width:100%;
+    display:block;
+    margin:0px 20px;
+}
+
+.sub-table{border: 1px solid #b3b3b3;}
+
+.table{border: 1px solid #e6e6e6;border-bottom:none;}
+
+.table tr td, .sub-table tr td{
+    padding:5px 5px;
+    border-bottom: 1px solid #e6e6e6;
+    font-size:15px;
+}
+
+.table tr td.table-data{padding-left:71px;}
+.sub-table tr td.subtable-data{padding-left:20px;}
+
+.sub-table img{
+    display:block;
+    margin:5px auto;
+    border: none;
+    width:30%;
+}
